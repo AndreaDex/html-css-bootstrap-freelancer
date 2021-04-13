@@ -1,0 +1,13 @@
+.p_navbar{
+    height: 60px;
+    color: white;
+}
+
+.p_jumbotron{
+    height: 450px;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
