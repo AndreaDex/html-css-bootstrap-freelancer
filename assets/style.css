@@ -11,6 +11,9 @@
 .txc_dblue{
     color: rgba(44, 62, 80, 1);
 }
+.txc_aqua{
+    color: rgba(30, 179, 151, 1);
+}
 
 /* HEADER style */
 /* navbar style */
@@ -71,4 +74,35 @@
     vertical-align: middle;
     border-bottom: 4px solid white;
     margin: auto;
+}
+
+/* contact section */
+/* contact title style */
+.contact span::after, .contact span::before{
+    content: "";
+    display: inline-block;
+    width: 15%;
+    vertical-align: middle;
+    border-bottom: 4px solid  rgba(44, 62, 80, 1);
+    margin: auto;
+}
+
+/* FOOTER STYLE */
+.icon_cont{
+    margin: 0 5px;
+    position: relative;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.icon_cont>i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.copyright{
+    font-size: 10px;
 }
