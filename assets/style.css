@@ -28,9 +28,10 @@
 .p_jumbotron{
     text-align: center;
     color: white;
+    border-radius: 0%;
 }
 .jumbo_img{
-    width: 35%;
+    width: 30%;
 }
 .p_jumbotron span::after, .p_jumbotron span::before{
     content: "";
