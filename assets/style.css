@@ -1,5 +1,23 @@
+/* utility class */
+.bgc_dblue{
+    background-color: rgba(44, 62, 80, 1);
+}
+.bgc_aqua{
+    background-color: rgba(26, 188, 156, 1);
+}
+.bgc_lblue{
+    background-color: rgba(58, 84, 109, 1);
+}
+.txc_dblue{
+    color: rgba(44, 62, 80, 1);
+}
+
+/* header style */
 .p_navbar{
-    height: 60px;
+    text-transform: uppercase;
+    color: white;
+}
+.nav-item>a{
     color: white;
 }
 
