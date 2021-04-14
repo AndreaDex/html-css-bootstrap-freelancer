@@ -43,9 +43,32 @@
     font-weight: bold;
     font-size: 20px;
 }
-
-
-
-img{
+/* portfolio section */
+/* title */
+.portfolio span::after, .portfolio span::before{
+    content: "";
+    display: inline-block;
+    width: 15%;
+    vertical-align: middle;
+    border-bottom: 4px solid  rgba(44, 62, 80, 1);
+    margin: auto;
+}
+/* portfolio gallery */
+.portfolio img{
     width: 100%;
+    border-radius: 8px;
+}
+
+/* about section */
+.about{
+    text-align: center;
+    color: white;
+}
+.about span::after, .about span::before{
+    content: "";
+    display: inline-block;
+    width: 15%;
+    vertical-align: middle;
+    border-bottom: 4px solid white;
+    margin: auto;
 }
