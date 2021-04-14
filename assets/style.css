@@ -12,7 +12,8 @@
     color: rgba(44, 62, 80, 1);
 }
 
-/* header style */
+/* HEADER style */
+/* navbar style */
 .p_navbar{
     text-transform: uppercase;
     color: white;
@@ -20,11 +21,30 @@
 .nav-item>a{
     color: white;
 }
-
+/* jumbotron style */
 .p_jumbotron{
-    height: 450px;
     text-align: center;
+    color: white;
 }
+.jumbo_img{
+    width: 35%;
+}
+.p_jumbotron span::after, .p_jumbotron span::before{
+    content: "";
+    display: inline-block;
+    width: 15%;
+    vertical-align: middle;
+    border-bottom: 4px solid white;
+    margin: auto;
+}
+.p_jumbotron ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
 
 img{
     width: 100%;
